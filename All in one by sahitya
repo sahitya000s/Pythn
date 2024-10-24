@@ -44,6 +44,12 @@ if n%2==0:
 else:
         print("odd")
 
+<-----------copy list----------->
+
+orignal=[10,6,8,2,6]
+print("original file is ",orignal)
+new=list(orignal)
+print("new copied file is ",new)
 
 
 
