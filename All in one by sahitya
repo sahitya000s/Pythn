@@ -8,3 +8,12 @@ while (z<=n):
     x=y
     y=z
     z=x+y
+
+
+<--------Histogram------->
+
+def histogram (list) :
+    for i in list:
+       print(i*'*')
+list=[3,9,12,6]
+histogram(list)
